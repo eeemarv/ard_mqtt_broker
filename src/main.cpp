@@ -24,7 +24,7 @@
 #define SERIAL_BAUD 115200
 
 byte mac[] = {0x00, 0xAA, 0xBB, 0xCD, 0xDE, 0x03};
-const IPAddress ip(192, 168, 0, 100);
+const IPAddress ip(192, 168, 0, 20);
 const IPAddress gateway(192, 168, 0, 1);
 const IPAddress mask(255, 255, 255, 0);
 
